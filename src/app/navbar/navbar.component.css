@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: auto;
+    background-color: aliceblue;
+}
+
+.nav-items {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    line-height: 75px;
+    width: 250px;
+}
+
+a.nav-items {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.nav-items:hover {
+    color: white;
+    text-decoration: none;
+    background-color: DodgerBlue;
+}
+
+.flex-container {
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 8;
+    justify-content: space-evenly;
+}
+
+.brand-container {
+    color: white;
+    background-color: rgb(112, 112, 112);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}

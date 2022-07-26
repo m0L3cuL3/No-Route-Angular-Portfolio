@@ -1,0 +1,8 @@
+<div class="navbar">
+    <div class="brand-container">
+        <h1 class="navbar-heading">{{ brand_title }}</h1>
+    </div>
+    <div class="flex-container" *ngFor="let item of nav_items">
+        <a class="nav-items" (click)="renderItem(item)">{{ item }}</a>
+    </div>
+</div>
