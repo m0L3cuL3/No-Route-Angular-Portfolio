@@ -1,5 +1,28 @@
 h1 {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     color: rgb(68, 198, 198);
+}
+
+input {
+    width: 20%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.container {
+    padding: 16px;
+    margin: 15px;
+    width: auto;
+    color: white;
+    background-color: rgb(44, 36, 71);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    margin-left: 16px;
+    margin-right: 16px;
 }

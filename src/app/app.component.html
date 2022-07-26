@@ -2,22 +2,27 @@
 <h1 class="title-heading">{{ title }}</h1>
 
 <!-- Render Home Template -->
-<ng-template [ngIf]="title === 'Home'">
+<ng-template [ngIf]="title === '🏠 Home'">
   <app-home></app-home>
 </ng-template>
 
 <!-- Render Blog Template -->
-<ng-template [ngIf]="title === 'Blog'">
+<ng-template [ngIf]="title === '📄 Blog'">
   <app-blog></app-blog>
 </ng-template>
 
 <!-- Render About Me Template -->
-<ng-template [ngIf]="title === 'About Me'">
+<ng-template [ngIf]="title === '🔧 Project'">
+  
+</ng-template>
+
+<!-- Render About Me Template -->
+<ng-template [ngIf]="title === '🎉 About Me'">
   <app-about-me></app-about-me>
 </ng-template>
 
 <!-- Render Contact Me Template -->
-<ng-template [ngIf]="title === 'Contact Me'">
+<ng-template [ngIf]="title === '📞 Contact Me'">
   <app-contact-me></app-contact-me>
 </ng-template>
 

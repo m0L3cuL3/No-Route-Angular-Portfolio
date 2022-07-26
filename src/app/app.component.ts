@@ -25,7 +25,7 @@ import {
 export class AppComponent {
   @ViewChild('navbarchild') navbarchild!: NavbarComponent
   
-  title = 'Home'
+  title = '🏠 Home'
 
   showTitle($event: string) {
     this.title = $event
