@@ -16,6 +16,7 @@
 
 a.nav-items {
     color: white;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     text-decoration: none;
     cursor: pointer;
@@ -42,6 +43,6 @@ a.nav-items:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }

@@ -15,10 +15,11 @@ export class NavbarComponent {
 
   // navbar items
   nav_items = [
-    'Home',
-    'Blog',
-    'About Me',
-    'Contact Me'
+    '🏠 Home',
+    '📄 Blog',
+    '🔧 Project',
+    '🎉 About Me',
+    '📞 Contact Me'
   ]
 
   renderItem(item: any) {
