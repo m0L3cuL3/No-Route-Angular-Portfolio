@@ -9,11 +9,19 @@ input {
     margin-right: 16px;
 }
 
+ul {
+    
+}
+  
+ul li {
+    list-style: none;
+}
+
 .container {
     padding: 16px;
     margin: 15px;
     width: auto;
-    color: white;
+    color: white;;
     background-color: rgb(44, 36, 71);
 }
 

@@ -2,7 +2,12 @@
 <div class="container">
     <div class="flex-container">
         <label for="todo-input-item">Enter ToDo:</label>
-        <input type="text" name="todo-input-item" placeholder="Enter ToDo...">
-        <button>Insert ToDo</button>
+        <input #newItem type="text" name="todo-input-item" placeholder="Enter ToDo..." (keyup.enter)="addItem(newItem.value)">
+        <button (click)="addItem(newItem.value)">Insert Item ➕</button>
     </div>
+    <ul>
+        <li *ngFor="let item of Item">
+          <app-item (remove)="remove(item)" [item]="item"></app-item>
+        </li>
+    </ul>
 </div>
